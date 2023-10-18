@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enlaces</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container shadow">
+        <header>
+            <div class="row align-items-center">
+                <div class="col-3"><img src="img/html-css.jpg" alt="logo" width="200"></div>
+                <div class="col-9">
+                    <span id="btnmenu" onclick="opendrawer()">&#9776;</span>
+                    <nav id="menu">
+                        <ul class="text-right">
+                            <li>
+                                <a href="index.html">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="parrafos.html">
+                                    Párrafos
+                                </a>
+                            </li>
+                            <li>
+                                <a href="enlaces.html">
+                                    Enlaces
+                                </a>
+                            </li>
+                            <li>
+                                <a href="listas.html">
+                                    Listas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tablas.html">
+                                    Tablas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="formularios.html">
+                                    Formularios
+                                </a>
+                            </li>
+                            <li>
+                                <a href="multimedia.html">
+                                    Multimedia
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+
+        </header>
+        <main class="shadow">
+            <div class="px-3">
+                <h1 class="text-center bg-rojo-c text-white py-3">TUTORIAL HTML5 & CSS3 TOLEDO</h1>
+            </div>
+            <div class="px-3">
+                <hr>
+            </div>
+            <div id="enlaces" class="py-3">
+                <h2 class="text-center">Enlaces</h2>
+
+            </div>
+            <div class="px-3">
+                <p>Los enlaces, links, hipervínculos o como se quieran llamar se hacen con la etiqueta a</p>
+                <h2>Tipos de enlaces</h2>
+                <h3>Enlace a una página interna</h3>
+                <p><a href="parrafos.html">Ir a <span class="text-subr">Párrafos</span></a></p>
+                <h3>Enlace a una página de internet</h3>
+                <p><a href="https://www.toledo.es/">Ir a la página del <span class="text-subr">Ayuntamiento de Toledo</span></a></p>
+                <h3>Enlace a una página en una pestaña nueva</h3>
+                <p><a href="https://consorciotoledo.com/" target="_blank">Ir a la página del <span class="text-subr">Consorcio</span> en pestaña nueva</a></p>
+                <h3>Enlace a programa de javascript</h3>
+                <p class="text-subr"><a href="javascript:alert('Buenas tardes')">Alerta</a></p>
+                <h3>Enlace a email</h3>
+                <p class="text-subr"><a href="mailto:juan@gmail.com">Sugerencias</a></p>
+                <h3 class="text-center">Enlace en imagen</h3>
+                <p class="text-center"><a href="https://www.facebook.com/" target="_blank">
+                    <img src="img/logofb.png" alt="logofb" width="60"></a></p>
+                    <p></p>
+            </div>
+        </main>
+        <footer>
+            <h1 class="bg-rojo-c text-center text-white py-3">&copy; Juan Villoslada</h1>
+        </footer>
+    </div>
+    <script>
+        function opendrawer() {
+            document.getElementById('menu').style.display = 'block';Enlaces
+            document.getElementById('menu').style.witdh = '100%';
+        }
+    </script>
+</body>
+
+</html>

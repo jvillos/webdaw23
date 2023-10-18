@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML5-CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container shadow">
+        <header>
+            <div class="row align-items-center">
+                <div class="col-3"><img src="img/html-css.jpg" alt="logo" width="200"></div>
+                <div class="col-9">
+                    <span id="btnmenu" onclick="opendrawer()">&#9776;</span>
+                    <nav id="menu">
+                        <ul class="text-right">
+                            <li>
+                                <a href="index.html">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="parrafos.html">
+                                    Párrafos
+                                </a>
+                            </li>
+                            <li>
+                                <a href="enlaces.html">
+                                    Enlaces
+                                </a>
+                            </li>
+                            <li>
+                                <a href="listas.html">
+                                    Listas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tablas.html">
+                                    Tablas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="formularios.html">
+                                    Formularios
+                                </a>
+                            </li>
+                            <li>
+                                <a href="multimedia.html">
+                                    Multimedia
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+
+        </header>
+        <main class="shadow">
+            <div class="px-3">
+                <h1 class="text-center bg-rojo-c text-white py-3">TUTORIAL HTML5 & CSS3 TOLEDO</h1>
+            </div>
+            <div class="px-3">
+                <hr>
+            </div>
+            <div id="listas" class="py-3, px-3">
+                <h2 class="text-center">Listas</h2>
+                <h3 class="text-subr">Tipos de listas</h3>
+                <h4>Listas desordenadas</h4>
+                <ul>
+                    <li>File</li>
+                    <li>Edit</li>
+                    <li>Selection</li>
+                    <li>View</li>
+                </ul>
+                <h4>Listas ordenadas</h4>
+                <ol>
+                    <li>File</li>
+                    <li>Edit</li>
+                    <li>Selection</li>
+                    <li>View</li>
+                </ol>
+                <h4>Listas desordenadas de varios niveles</h4>
+                <ul>
+                    <li>File</li>
+                        <ul>
+                            <li>Open</li>
+                            <li>Save</li>
+                            <li>Exit</li>
+                        </ul>
+                    <li>Edit</li>
+                        <ul>
+                            <li>Copy</li>
+                            <li>Paste</li>
+                        </ul>
+                    <li>Selection</li>
+                        <ul>
+                            <li>All</li>
+                        </ul>
+                    <li>View</li>
+                        <ul>
+                            <li>Window</li>
+                            <li>Full Screen</li>
+                        </ul>
+                </ul>
+                <h4>Listas ordenadas de varios niveles</h4>
+                <ol>
+                    <li>File</li>
+                        <ol>
+                            <li>Open</li>
+                            <li>Save</li>
+                            <li>Exit</li>
+                        </ol>
+                    <li>Edit</li>
+                        <ol>
+                            <li>Copy</li>
+                            <li>Paste</li>
+                        </ol>
+                    <li>Selection</li>
+                        <ol>
+                            <li>All</li>
+                        </ol>
+                    <li>View</li>
+                        <ol>
+                            <li>Window</li>
+                            <li>Full Screen</li>
+                        </ol>
+                </ol>
+                <h4>Listas ordenadas de varios niveles customizada</h4>
+                     <div id="olcustom">   
+                        <ol>
+                            <li>File</li>
+                                <ol>
+                                    <li>Open</li>
+                                    <li>Save</li>
+                                    <li>Exit</li>
+                                </ol>
+                            <li>Edit</li>
+                                <ol>
+                                    <li>Copy</li>
+                                    <li>Paste</li>
+                                </ol>
+                            <li>Selection</li>
+                                <ol>
+                                    <li>All</li>
+                                </ol>
+                            <li>View</li>
+                                <ol>
+                                    <li>Window</li>
+                                    <li>Full Screen</li>
+                                </ol>
+                        </ol>
+                    </div>
+                <h4>Listas ordenadas de tres niveles customizada</h4>
+                     <div id="olcustom2">   
+                        <ol>
+                            <li>File</li>
+                                <ol>
+                                    <li>Open</li>
+                                    <li>Save</li>
+                                    <li>Exit</li>
+                                </ol>
+                            <li>Edit</li>
+                                <ol>
+                                    <li>Copy</li>
+                                    <ol>
+                                        <li>All</li>
+                                        <li>Block</li>
+                                    </ol>
+                                    <li>Paste</li>
+                                </ol>
+                            <li>Selection</li>
+                                <ol>
+                                    <li>All</li>
+                                </ol>
+                            <li>View</li>
+                                <ol>
+                                    <li>Window</li>
+                                        <ol>
+                                            <li>Maximizada</li>
+                                            <li>Minimizada</li>
+                                        </ol>
+                                    <li>Full Screen</li>
+                                </ol>
+                        </ol>
+                    </div>
+                    <h4>Listas desordenadas de tres niveles customizada con imágenes</h4>
+                     <div id="ulcustomim">   
+                        <ul>
+                            <li>File</li>
+                                <ul>
+                                    <li>Open</li>
+                                    <li>Save</li>
+                                    <li>Exit</li>
+                                </ul>
+                            <li>Edit</li>
+                                <ul>
+                                    <li>Copy</li>
+                                    <ul>
+                                        <li>All</li>
+                                        <li>Block</li>
+                                    </ul>
+                                    <li>Paste</li>
+                                </ul>
+                            <li>Selection</li>
+                                <ul>
+                                    <li>All</li>
+                                </ul>
+                            <li>View</li>
+                                <ul>
+                                    <li>Window</li>
+                                        <ul>
+                                            <li>Maximizada</li>
+                                            <li>Minimizada</li>
+                                        </ul>
+                                    <li>Full Screen</li>
+                                </ul>
+                        </ul>
+                    </div>
+                    <h4>Listas de definición</h4>
+                    <dl>
+                        <dt>Botella</dt>
+                        <dd>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse labore commodi explicabo voluptatem laudanti
+                            um ad repudiandae, qui quae est assumenda eaque necessitatibus vero quod sunt quo velit deleniti. Sed, obc
+                            aecati.
+                        </dd>
+                        <dt>Mesa</dt>
+                        <dd>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse labore commodi explicabo voluptatem laudanti
+                            um ad repudiandae, qui quae est assumenda eaque necessitatibus vero quod sunt quo velit deleniti. Sed, obc
+                            aecati.
+                        </dd>
+                        <dt>Ventana</dt>
+                        <dd>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse labore commodi explicabo voluptatem laudanti
+                            um ad repudiandae, qui quae est assumenda eaque necessitatibus vero quod sunt quo velit deleniti. Sed, obc
+                            aecati.
+                        </dd>
+                    </dl>
+            </div>
+            
+        </main>
+        <footer>
+            <h1 class="bg-rojo-c text-center text-white py-3">&copy; Juan Villoslada</h1>
+        </footer>
+    </div>
+    <script>
+        function opendrawer() {
+            document.getElementById('menu').style.display = 'block';
+            document.getElementById('menu').style.witdh = '100%';
+        }
+    </script>
+</body>
+
+</html>
