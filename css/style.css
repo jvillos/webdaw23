@@ -302,3 +302,20 @@ table.horario td {
 .ing {
     background-color: rgb(255, 162, 100);
 }
+form.form-login{
+    width 50%;
+    float: left;
+    padding: 0 40px;
+}
+form.form-registro{
+    width 50%;
+    float: right;
+    padding: 0 40px;
+}
+form.form-html5 {
+    width: 40%;
+    margin: 0 auto;
+}
+.cb {
+    clear: both;
+}

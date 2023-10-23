@@ -69,72 +69,106 @@
             <div id="formularios" class="py-3 px-3">
                 <h2 class="text-center">Formularios</h2>
                 
-                <form action="kk.php" method="post">
+                <form action="kk.php" method="post" class="form-login">
                     <h4>Formulario de Login</h3>
                     <fieldset>
                         <legend>Login</legend>
-                        <p><input type="text" name="nombre" id=""></p> 
-                        <p><input type="text" name="password" id=""></p> 
+                        <p>Nombre <input type="text" name="nombre" id=""></p> 
+                        <p>Contraseña <input type="text" name="password" id=""></p> 
                         <p><input type="submit"></p>  
                     </fieldset>
                 </form>
-                <form action="kk.php" method="post""">
+                <form action="kk.php" method="post" class="form-registro">
                     <h4>Formulario de registro</h4>
                     <fieldset>
                         <legend>Registro</legend>
                         <p><input type="text" name="nombre" id="" placeholder="Nombre"></p> 
                         <p><input type="text" name="password" id="" placeholder="Contraseña"></p> 
-                        <p><input type="submit"></p>  
+                        <p>Fecha de nacimiento
+                            <select name="dia" id="">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                            </select>
+                            <select name="mes" id="">
+                                <option value="1">Enero</option>
+                                <option value="2">Febrero</option>
+                                <option value="3">Marzo</option>
+                                <option value="4">Abril</option>
+                                <option value="5">Mayo</option>
+                                <option value="6">Junio</option>
+                            </select>
+                            <select name="anio" id="">
+                                <option value="1995">1995</option>
+                                <option value="1996">1996</option>
+                                <option value="1997">1997</option>
+                                <option value="1998">1998</option>
+                                <option value="1999">1999</option>
+                                <option value="2000">2000</option>
+                            </select>
+                           </p> 
+                           <p> Observaciones <br>
+                            <textarea name="observaciones" id="" cols="60" rows="6"></textarea>
+                            </p>    
+                            <p>Aficiones: <br>
+                                <input type="checkbox" name="aficiones" id="">Música <br>
+                                <input type="checkbox" name="aficiones" id="">Senderismo <br>
+                                <input type="checkbox" name="aficiones" id="">Pintura <br>
+                                <input type="checkbox" name="aficiones" id="">Literatura <br>
+                                <input type="checkbox" name="aficiones" id="">Cine <br>
+                              </p>
+                              <p>Estado civil: <br>
+                              <input type="radio" name="ec" id=""> Casado/a <br>
+                              <input type="radio" name="ec" id=""> Soltero/a <br>
+                              <input type="radio" name="ec" id=""> Viudo/a <br>
+                              <input type="radio" name="ec" id=""> Otros <br>
+                              </p>
+                              <p>Provincia:<br>
+                              <select name="provincia" id="" multiple size="5">
+                                  <option value="1">Albacete</option>
+                                  <option value="1">Ciudad Real</option>
+                                  <option value="3">Cuenca</option>
+                                  <option value="1">Guadalajara</option>
+                                  <option value="1">Toledo</option>
+                              </select>
+                              </p>
+                              <p>Foto:  <input type="file" name="foto" id="">
+                            </p>
+                            <p> <input type="submit"></p>
+                             
                     </fieldset>
-
-
-
+                    <br>
+                </form>
+                <div class="cb"></div>
+                <form action="kk.php" method="post" class="form-html5">
+                    <h4>Formulario con elementos HTML5</h3>
+                    <fieldset>
+                        <legend>Inputs HTML5</legend>
+                        <p><label for="">Color:</label> <input type="color" name="color" id=""></p>
+                        <p><label for="">Date:</label> <input type="date" name="date" id=""></p>
+                        <p><label for="">Datetime-local:</label> <input type="datetime-local" name="datetime-local"
+                                id=""></p>
+                        <p><label for="">Email:</label> <input type="email" name="email" id=""></p>
+                        <p><label for="">Month:</label> <input type="month" name="month" id=""></p>
+                        <p><label for="">Number:</label> <input type="number" name="number" id="" step="2" min="10"
+                                max="30"></p>
+                        <p><label for="">Range:</label> <input type="range" name="range" id="" step="2" min="10"
+                                max="30"></p>
+                        <p><label for="">Tel:</label> <input type="tel" name="tel" id=""></p>
+                        <p><label for="">Time:</label> <input type="time" name="time" id=""></p>
+                        <p><label for="">Url:</label> <input type="url" name="url" id=""></p>
+                        <p><label for="">Week:</label> <input type="week" name="week" id=""></p>
+                        <p><input type="submit" value="Enviar" id="" class="btn btn-red"></p>
+                    </fieldset>
+                    <br>
                 </form>
 
-                <br>
-                <h4>Fecha de nacimiento</h3>
-                    <form action="kk.php" method="post">
-                       <p>
-                        <select name="dia" id="">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                            <option value="7">7</option>
-                            <option value="8">8</option>
-                        </select>
-                        <select name="mes" id="">
-                            <option value="1">Enero</option>
-                            <option value="2">Febrero</option>
-                            <option value="3">Marzo</option>
-                            <option value="4">Abril</option>
-                            <option value="5">Mayo</option>
-                            <option value="6">Junio</option>
-                        </select>
-                        <select name="anio" id="">
-                            <option value="1995">1995</option>
-                            <option value="1996">1996</option>
-                            <option value="1997">1997</option>
-                            <option value="1998">1998</option>
-                            <option value="1999">1999</option>
-                            <option value="2000">2000</option>
-                        </select>
-                       </p> 
-                       <p><input type="submit"></p> <br>
-                       <p> <textarea name="observaciones" id="" cols="60" rows="6" placeholder="Obsevaciones"></textarea> <br>
-                       <input type="submit"></p>
-                       <br>
-                       <h4>Aficiones con checkbox</h4>
-                       <input type="checkbox" name="aficiones" id="">
-                       <input type="checkbox" name="aficiones" id="">
-                       <input type="checkbox" name="aficiones" id="">
-                       <input type="checkbox" name="aficiones" id="">
-                       <input type="checkbox" name="aficiones" id="">
-                        
-                    </form>
-
+                
             </div>
            
            
